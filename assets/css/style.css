@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    color: #8B573C;
+}
+
+h2 {
+    font-family: 'Karla', sans-serif; 
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 40px;
+    letter-spacing: 4px;
+    color: #43170A;
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+#menu {
+    float: right;
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    padding: 48px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #43170A;
+}
+
+.active {
+    border-bottom: 1px solid #43170A;
+}
+
+#hero-image {
+    height:600px;
+    width: 100%;
+    background: url("/assets/images/piano.jpg") no-repeat center center;
+}
