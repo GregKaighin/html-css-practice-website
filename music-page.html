@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Music | Greg Kaighin</title>
+   
+    <script src="https://kit.fontawesome.com/bd2b28ab92.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>
+ <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/index.js"></script>
+<link rel="stylesheet" href="css/audio-player.css">
+    <script src="js/audioPlayer.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h2 id="logo">Piano music audio</h2>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">About <i class="fas fa-question-circle"></i></a>
+                </li>
+                <li>
+                    <a class="active" href="music-page.html">Music <i class="fas fa-music"></i></a>
+                </li>
+                <li>
+                    <a href="#">Enquiries <i class="fas fa-comments"></i></a>
+                </li>
+             </ul>
+        </nav>
+    </header>
+        <section id="hero-outer-b">
+        <div id="hero-image-b"></div>
+        <div id="cover-text">
+            <h2>Take a listen</h2>
+            <h5>Please enjoy</h5>
+        </div>
+    </section>
+   <div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+    <div class="column center">
+        <h1>Some recordings</h1>
+        <h6>by my piano pupils and me</h6>
+    </div>
+    <div class="column add-bottom">
+        <div id="mainwrap">
+            <div id="nowPlay">
+                <span class="left" id="npAction">Paused...</span>
+                <span class="right" id="npTitle"></span>
+            </div>
+            <div id="audiowrap">
+                <div id="audio0">
+                    <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
+                </div>
+                <div id="tracks">
+                    <a id="btnPrev" aria-label="Previous">&laquo;</a>
+                    <a id="btnNext" aria-label="Next">&raquo;</a>
+                </div>
+            </div>
+            <div id="plwrap">
+                <ul id="plList">
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">01.</div>
+                            <div class="plTitle">Prelude in c# minor</div>
+                            <div class="plLength">2:46</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">02.</div>
+                            <div class="plTitle">The Forsaken - Broadwing Studio (Final Mix)</div>
+                            <div class="plLength">8:31</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">03.</div>
+                            <div class="plTitle">All The King's Men - Broadwing Studio (Final Mix)</div>
+                            <div class="plLength">5:02</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">04.</div>
+                            <div class="plTitle">The Forsaken - Broadwing Studio (First Mix)</div>
+                            <div class="plLength">8:32</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">05.</div>
+                            <div class="plTitle">All The King's Men - Broadwing Studio (First Mix)</div>
+                            <div class="plLength">5:05</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">06.</div>
+                            <div class="plTitle">All This Is - Alternate Cuts</div>
+                            <div class="plLength">2:49</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">07.</div>
+                            <div class="plTitle">All The King's Men (Take 1) - Alternate Cuts</div>
+                            <div class="plLength">5:45</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">08.</div>
+                            <div class="plTitle">All The King's Men (Take 2) - Alternate Cuts</div>
+                            <div class="plLength">5:27</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="plItem">
+                            <div class="plNum">09.</div>
+                            <div class="plTitle">Magus - Alternate Cuts</div>
+                            <div class="plLength">5:46</div>
+                        </div>
+                    </li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+    <section id="times">
+        <div>
+            <h2>Online <i class="fas fa-desktop"></i></h2>
+            <h3>30 minutes £14</h3>
+            <h3>60 minutes £28</h3>
+        </div>
+        <div>
+            <h2>In Your Home <i class="fas fa-home"></i></h2>
+            <h3>30 minutes £15</h3>
+            <h3>60 minutes £30</h3>
+        </div>
+        <div>
+            <h2>Workshops <i class="fas fa-users"></i></h2>
+            <h3>Pop music & jazz</h3>
+            <h3>Learn how to play solo & in a group</h3>
+        </div>
+        <div>
+            <h2>+ Subjects <i class="fas fa-chalkboard-teacher"></i></h2>
+            <h3>Theory of music &</h3>
+            <h3>Music technology</h3>
+        </div>
+    </section>
+    <footer>
+            <ul class="social-networks">
+                <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+    </footer>
+    </body>
+</html>
