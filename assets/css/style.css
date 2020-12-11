@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Karla', sans-serif;
+    background-color: rgb(240, 229, 229);
     color: #8B573C;
 }
 
@@ -33,7 +34,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 20px;
-    margin-top: 32px;
+    margin-top: 28px;
     color: #8B573C
 }
 
@@ -207,11 +208,16 @@ hr{
     float: left;
     padding: 8px 0 0 10px;
     text-align: center;
+    letter-spacing: 1px;
     margin: 2px;
 }
 
 #times h2 {
     color: rgb(240, 229, 229);
+}
+
+#times h3 {
+    margin-top: 12px;
 }
 
 footer {
@@ -279,4 +285,9 @@ footer {
     margin: 20px 20px;
     text-align: justify;
     font-size: 128%;
+}
+
+#about-me a {
+    color: #43170A;
+    text-decoration: none;
 }
