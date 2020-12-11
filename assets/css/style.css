@@ -158,16 +158,21 @@ hr{
 
 .right-about-heading p {
     text-align: right;
+    font-size: 128%;
+}
+
+.left-about-heading p {
+    font-size: 128%;
 }
 
 
-#welcome{
+#welcome {
     margin: 20px 0;
     text-align: center;
     font-size: 200%;
 }
 
-#circle-container{
+#circle-container {
     width: 460px;
     height: 460px;
     padding:30px;
@@ -185,7 +190,7 @@ hr{
     border-radius: 50%;
 }
 
-#times{
+#times {
     background-image: url("/assets/images/piano2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -252,4 +257,26 @@ footer {
     to{
         transform: scale(1.1);
     }
+}
+
+#about-me {
+    clear: both;
+    margin: 40px 20px;
+    text-align: center;
+    font-size: 100%;
+    letter-spacing: 1px;
+   
+}
+
+#about-me h2 {
+  
+    margin: 20px 0;
+    text-align: center;
+    font-size: 200%;
+}
+
+#about-me p {
+    margin: 20px 20px;
+    text-align: justify;
+    font-size: 128%;
 }
