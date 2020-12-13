@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Music | Greg Kaighin</title>
-   
+    <script src="/html-css-practice-website/javascript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
     <script src="https://kit.fontawesome.com/bd2b28ab92.js" crossorigin="anonymous"></script>
-     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    
 </head>
 <body>
     <header>
@@ -19,7 +23,7 @@
                     <a href="index.html">Home <i class="fas fa-home"></i></a>
                 </li>
                 <li>
-                    <a href="#about-me">About me <i class="fas fa-user"></i></a>
+                    <a href="index.html#about-me">About me <i class="fas fa-user"></i></a>
                 </li>
                 <li>
                     <a class="active" href="music-page.html">Music <i class="fas fa-music"></i></a>
@@ -40,6 +44,177 @@
             <h5>Please enjoy some recordings made by me and my pupils</h5>
         </div>
     </section>
+
+    <div class="container">
+
+  <audio id="audio" preload="none" tabindex="0">
+    			<source src="assets/music/rachprelude.mp3" data-track-number="1" />
+    			<source src="#" data-track-number="2" />
+    			<source src="#" data-track-number="3" />
+    			<source src="#" data-track-number="4" />
+    			<source src="#" data-track-number="5" />    
+    			<source src="#" data-track-number="6" />
+    			<source src="#" data-track-number="7" />
+    			<source src="#" data-track-number="8" />
+                <source src="#" data-track-number="9" />
+                <source src="#" data-track-number="10" />
+    			Your browser does not support HTML5 audio.
+    		</audio>
+
+  <div class="player">
+
+    <div class="large-toggle-btn">
+      <i class="large-play-btn"><span class="screen-reader-text">Large toggle button</span></i>
+    </div>
+    <!-- /.play-box -->
+
+    <div class="info-box">
+      <div class="track-info-box">
+        <div class="track-title-text"></div>
+        <div class="audio-time">
+          <span class="current-time">00:00</span> /
+          <span class="duration">00:00</span>
+        </div>
+      </div>
+      <!-- /.info-box -->
+
+      <div class="progress-box">
+        <div class="progress-cell">
+          <div class="progress">
+            <div class="progress-buffer"></div>
+            <div class="progress-indicator"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.progress-box -->
+
+    <div class="controls-box">
+      <i class="previous-track-btn disabled"><span class="screen-reader-text">Previous track button</span></i>
+      <i class="next-track-btn"><span class="screen-reader-text">Next track button</span></i>
+    </div>
+    <!-- /.controls-box -->
+
+  </div>
+  <!-- /.player -->
+
+  <div class="play-list">
+
+    <div class="play-list-row" data-track-row="1">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        1.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="1">Prelude in C# minor - Sergei Rachmaninov</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="2">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        2.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="2">Track 2</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="3">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        3.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="3">Track 3</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="4">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        4.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="4">Track 4</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="5">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        5.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="5">Track 5</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="6">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        6.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="6">Track 6</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="7">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        7.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="7">Track 7</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="8">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        8.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="8">Track 8</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="9">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        9.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="9">Track 9</a>
+      </div>
+    </div>
+    <div class="play-list-row" data-track-row="10">
+      <div class="small-toggle-btn">
+        <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+      </div>
+      <div class="track-number">
+        10.
+      </div>
+      <div class="track-title">
+        <a class="playlist-track" href="#" data-play-track="10">Track 10</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
   
     <section id="times">
         <div>
