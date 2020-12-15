@@ -547,4 +547,29 @@ body .container .play-list .play-list-row:after {
   visibility: hidden;
 }
 
+#hero-image-c {
+    height:450px;
+    width: 100%;
+    background: url("/assets/images/sheet-music.jpg") no-repeat center center;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer-c {
+    height:450px;
+    width: 100%;
+    overflow:hidden;
+}
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
 
