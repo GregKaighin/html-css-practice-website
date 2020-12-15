@@ -293,6 +293,10 @@ footer {
     text-decoration: none;
 }
 
+#about-me a:hover {
+    border-bottom: 1px solid #8B573C;
+}
+
 .screen-reader-text {
   /* Reusable, toolbox kind of class */
   position: absolute;
@@ -301,7 +305,7 @@ footer {
 }
 
 .disabled {
-  color: #666;
+  color: #A08184;
   cursor: default;
 }
 
@@ -427,7 +431,7 @@ body .container .player .progress-box .progress-cell .progress {
   width: auto;
 }
 body .container .player .progress-box .progress-cell .progress .progress-buffer {
-  background: rgba(158, 143, 130);
+  background: #A08184;
   height: 100%;
   width: 0;
 }
