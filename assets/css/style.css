@@ -99,7 +99,7 @@ h2 {
     padding-top: 15px;
     padding-left: 15px;
 
-    background-color: rgba(158, 143, 130, .75);
+    background-color: rgba(158, 143, 130, .9);
 
     bottom: 35%;
     right: 10%;
@@ -576,4 +576,16 @@ body .container .play-list .play-list-row:after {
     }
 }
 
+#resources {
+    text-align: center;
+}
+
+#resources a {
+    color: #43170A;
+    text-decoration: none;
+}
+
+#resources a:hover {
+    border-bottom: 1px solid #8B573C;
+}
 
