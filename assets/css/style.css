@@ -601,6 +601,8 @@ body .container .play-list .play-list-row:after {
     border-bottom: 1px solid #8B573C;
 }
 
+/*--------------------------------- Bottom nav menu*/
+
 #menu-bottom {
  
     font-size: 100%;
@@ -610,6 +612,7 @@ body .container .play-list .play-list-row:after {
     letter-spacing: 4px;
     padding: 20px;
     margin-top: 28px;
+    margin-bottom: 28px;
     color: #8B573C
 }
 
