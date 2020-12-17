@@ -40,7 +40,7 @@ h2 {
 }
 
 #menu li {
-    float: right;
+    display: inline;
     margin-right: 30px;
 }
 
@@ -589,3 +589,33 @@ body .container .play-list .play-list-row:after {
     border-bottom: 1px solid #8B573C;
 }
 
+#menu-bottom {
+ 
+    font-size: 100%;
+    text-align: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 20px;
+    margin-top: 28px;
+    color: #8B573C
+}
+
+#menu-bottom li {
+    display: inline;
+    text-align: center;
+    margin-right: 30px;
+}
+
+#menu-bottom a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu-bottom a:hover {
+    border-bottom: 1px solid #8B573C;
+}
+
+.active {
+    border-bottom: 1px solid #8B573C;
+}
