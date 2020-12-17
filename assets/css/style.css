@@ -192,6 +192,8 @@ hr{
     border-radius: 50%;
 }
 
+/*------------------------------Times*/
+
 #times {
     background-image: url("/assets/images/piano2.jpg");
     background-repeat: no-repeat;
@@ -241,6 +243,8 @@ footer {
     color: #43170A;
 }
 
+/*----------------------------Music page hero image*/
+
 #hero-image-b {
     height:450px;
     width: 100%;
@@ -265,6 +269,8 @@ footer {
         transform: scale(1.1);
     }
 }
+
+/*---------------------------- About me*/
 
 #about-me {
     clear: both;
@@ -296,6 +302,8 @@ footer {
 #about-me a:hover {
     border-bottom: 1px solid #8B573C;
 }
+
+/*---------------------------------- Audio player*/
 
 .screen-reader-text {
   /* Reusable, toolbox kind of class */
@@ -551,6 +559,8 @@ body .container .play-list .play-list-row:after {
   visibility: hidden;
 }
 
+/*-------------------------------- Music page hero image*/
+
 #hero-image-c {
     height:450px;
     width: 100%;
@@ -575,6 +585,8 @@ body .container .play-list .play-list-row:after {
         transform: scale(1.1);
     }
 }
+
+/*-------------------------------- Resources text*/
 
 #resources {
     text-align: center;
