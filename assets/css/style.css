@@ -606,9 +606,29 @@ body .container .play-list .play-list-row:after {
     color: #8B573C
 }
 
+#resources h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #43170A;
+    margin-bottom: 14px;
+}
+
 #resources ul {
     display: inline-block;
     text-align: left;
+    margin-bottom: 28px;
+}
+
+#scales-exercises {
+     padding-top: 30px;
+    width:50%;
+    float: left;
+}
+
+#pieces {
+    padding-top: 30px;
+    width:50%;
+    float: right;
 }
 
 #resources li a {
