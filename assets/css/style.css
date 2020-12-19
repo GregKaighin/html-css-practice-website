@@ -13,6 +13,8 @@ body {
     color: #8B573C;
 }
 
+/*--------------------------------Logo*/
+
 h2 {
     font-family: 'Karla', sans-serif; 
     font-weight: 300;
@@ -28,10 +30,11 @@ h2 {
     font-size: 180%;
 }
 
+/*--------------------------Nav menu*/
+
 #menu {
     float: right;
     font-size: 100%;
-    list-style-type: none;
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 20px;
@@ -57,11 +60,12 @@ h2 {
     border-bottom: 1px solid #8B573C;
 }
 
+/*----------------------------------Hero image*/
+
 #hero-image {
     height:450px;
     width: 100%;
     background: url("/assets/images/piano.jpg") no-repeat center center;
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -108,6 +112,8 @@ h2 {
 
 }  
 
+/*----------------------------------Ethos*/
+
 #tutor-ethos {
     height: 600px;
 }
@@ -146,8 +152,8 @@ hr{
 }
 
 .right-about-heading{
-    width:50%;
-    float:left;
+    width: 50%;
+    float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -192,7 +198,7 @@ hr{
     border-radius: 50%;
 }
 
-/*------------------------------Times*/
+/*------------------------------Info*/
 
 #info {
     background-image: url("/assets/images/piano2.jpg");
@@ -222,6 +228,8 @@ hr{
 #info h3 {
     margin-top: 12px;
 }
+
+/*-----------------------------Footer*/
 
 footer {
     height: 150px;
@@ -590,11 +598,22 @@ body .container .play-list .play-list-row:after {
 
 #resources {
     text-align: center;
+    list-style: inside;
+    list-style-type: disc;
+    letter-spacing: 2px;
+    padding: 20px;
+    margin-top: 28px;
+    color: #8B573C
 }
 
-#resources a {
-    color: #43170A;
+#resources ul {
+    display: inline-block;
+    text-align: left;
+}
+
+#resources li a {
     text-decoration: none;
+    color: #8B573C
 }
 
 #resources a:hover {
