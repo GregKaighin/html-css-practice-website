@@ -606,6 +606,16 @@ body .container .play-list .play-list-row:after {
     color: #8B573C
 }
 
+
+#resources h2 {
+    font-size: 180%;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 40px;
+    letter-spacing: 4px;
+    color: #43170A;
+}
+
 #resources h3 {
     font-weight: 300;
     text-transform: uppercase;
