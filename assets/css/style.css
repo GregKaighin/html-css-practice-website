@@ -34,7 +34,7 @@ h2 {
 
 #menu {
     float: right;
-    font-size: 100%;
+    font-size: 120%;
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 20px;
@@ -116,20 +116,14 @@ h2 {
 
 /*----------------------------------Ethos*/
 
-h2 {
-    font-family: 'Karla', sans-serif; 
-    font-weight: 300;
-    text-transform: uppercase;
-    padding: 40px;
-    letter-spacing: 4px;
-    color: #43170A;
-    text-decoration: none;
-
+#tutor-ethos {
+    height: 600px;
+    
 }
 
 #tutor-ethos h3 {
     font-family: 'Karla', sans-serif; 
-    font-size: 120%;
+    font-size: 160%;
     font-weight: 300;
     text-transform: uppercase;
     padding: 40px;
@@ -139,9 +133,6 @@ h2 {
 
 }
 
-#tutor-ethos {
-    height: 600px;
-}
 
 #left-about {
     padding-top: 30px;
@@ -714,10 +705,17 @@ body .container .play-list .play-list-row:after {
 
 /*--------------------------------- Contact Form*/
 
+.form-control {
+    color: #8B573C;
+    letter-spacing: 2px;
+}
+
 .contact-heading {
+    color: #8B573C;
     clear: both;
     font-family: "Karla", sans-serif;
     font-weight: 300;
+    letter-spacing: 2px;
     margin-top: 25px;
     margin-bottom: 20px;
 }
@@ -731,6 +729,11 @@ body .container .play-list .play-list-row:after {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #43170A;
+    color: #43170A;
+}
+
+.btn-secondary {
+    color: #8B573C;
+    background-color: #8B573C;
+    border-color: #43170A;
 }
