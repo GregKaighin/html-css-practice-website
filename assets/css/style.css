@@ -87,8 +87,10 @@ h2 {
 }
 
 #cover-text, #cover-text h2 {
+    font-size: 120%;
     color: #43170A;
     border-radius: 50px 15px;
+    padding: 20px;
     }
 
 #cover-text {
@@ -113,6 +115,29 @@ h2 {
 }  
 
 /*----------------------------------Ethos*/
+
+h2 {
+    font-family: 'Karla', sans-serif; 
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 40px;
+    letter-spacing: 4px;
+    color: #43170A;
+    text-decoration: none;
+
+}
+
+#tutor-ethos h3 {
+    font-family: 'Karla', sans-serif; 
+    font-size: 120%;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 40px;
+    letter-spacing: 4px;
+    color: #43170A;
+    text-decoration: none;
+
+}
 
 #tutor-ethos {
     height: 600px;
@@ -223,9 +248,11 @@ hr{
 
 #info h2 {
     color: rgb(240, 229, 229);
+    font-size: 120%;
 }
 
 #info h3 {
+    font-size: 120%;
     margin-top: 12px;
 }
 
@@ -335,7 +362,7 @@ body {
 body .container {
   font-family: 'Karla', sans-serif;
   font-size: 1em;
-  margin: 0 auto;
+  margin: 24px auto;
   width: 500px;
 }
 body .container .player {
@@ -654,6 +681,7 @@ body .container .play-list .play-list-row:after {
 
 #menu-bottom {
  
+    clear: both;
     font-size: 100%;
     text-align: center;
     list-style-type: none;
@@ -682,4 +710,27 @@ body .container .play-list .play-list-row:after {
 
 .active {
     border-bottom: 1px solid #8B573C;
+}
+
+/*--------------------------------- Contact Form*/
+
+.contact-heading {
+    clear: both;
+    font-family: "Karla", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #43170A;
 }
