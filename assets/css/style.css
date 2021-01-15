@@ -117,6 +117,7 @@ h2 {
 
 #tutor-ethos {
     height: 600px;
+    letter-spacing: 2px;
     
 }
 
@@ -181,11 +182,11 @@ hr{
 
 .right-about-heading p {
     text-align: right;
-    font-size: 100%;
+    font-size: 120%;
 }
 
 .left-about-heading p {
-    font-size: 100%;
+    font-size: 120%;
 }
 
 
@@ -211,6 +212,32 @@ hr{
     background: url("/assets/images/greg-kaighin.jpg") no-repeat center center;
     height:100%;
     border-radius: 50%;
+}
+
+
+@media screen and (max-width: 1393px) {
+    #tutor-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin-top: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        padding: 0;
+    }
 }
 
 /*------------------------------Info*/
@@ -747,6 +774,7 @@ button[type="submit"] {
 
 .testimonial {
     margin: 0 20px 40px;
+    letter-spacing: 2px;
 }
 
 .testimonial .testimonial-content {
@@ -773,7 +801,7 @@ button[type="submit"] {
     height: 45px;
     background: #43170A;
     text-align: center;
-    font-size: 22px;
+    font-size: 160%;
     color: rgb(240, 229, 229);
     line-height: 42px;
     position: absolute;
@@ -791,7 +819,7 @@ button[type="submit"] {
 }
 
 .testimonial .description {
-    font-size: 15px;
+    font-size: 120%;
     font-style: italic;
     color: #8B573C;
     line-height: 23px;
@@ -800,8 +828,8 @@ button[type="submit"] {
 
 .testimonial .title {
     display: block;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 120%;
+    font-weight: 400;
     color:  #43170A;
     text-transform: capitalize;
     letter-spacing: 1px;
@@ -810,6 +838,7 @@ button[type="submit"] {
 
 .testimonial .post {
     display: block;
-    font-size: 14px;
+    font-size: 100%;
     color: #8B573C;
 }
+
