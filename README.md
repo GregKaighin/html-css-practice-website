@@ -1,3 +1,13 @@
+# Piano Lessons with Greg Kaighin
+## Prototype build v1.0
+## January 2021
+
+This project is a prototype build of Piano Lessons with Greg Kaighin website, the latest version of which can be found here:
+
+https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-2.0-msp1-code-institute
+
+
+
 This design of this website is in part based on the Love Running website featured in Code Institute's Full Stack Developer programme.
 
 Hero image: https://www.pexels.com/@juanpphotoandvideo/#_=_       Credit: Juan Pablo Serrano Arenas
