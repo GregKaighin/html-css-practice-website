@@ -6,7 +6,7 @@ This project is a prototype build of Piano Lessons with Greg Kaighin website, th
 
 https://github.com/GregKaighin/piano-lessons-with-greg-kaighin-2.0-msp1-code-institute
 
-I decided to start the project again in this new repository upon realising that it was going to be much easier to achieve a responsive layout
+I decided to start the project again in a new repository upon realising that it was going to be much easier to achieve a responsive layout
 using Bootstrap.
 
 This design of this website is in part based on the Love Running website featured in Code Institute's Full Stack Developer programme.
